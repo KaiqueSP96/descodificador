@@ -1,0 +1,138 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-main {
+  display: flex;
+  flex-direction: column;
+  background: #f3f5fc;
+}
+
+.logo {
+  margin-left: 89px;
+  margin-top: 44px;
+}
+
+.contents {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-left {
+  width: 20%;
+  display: block;
+}
+
+.content-center {
+  flex-grow: 1;
+}
+
+textarea {
+  width: 500px;
+  min-height: 400px;
+  border: none;
+  font-size: 20px;
+  background: #f3f5fc;
+}
+
+textarea::placeholder {
+  color: #0a3871;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.content-right {
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  border-radius: 32px;
+  width: 400px;
+  height: 700px;
+  margin-right: 30px;
+  background: #ffffff;
+  margin-bottom: 50px;
+}
+
+.content-right svg {
+  margin-top: 30%;
+}
+
+.content-right p {
+  margin-top: 15px;
+}
+
+.content-right .title {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.content-right .subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+footer {
+  background: #f3f5fc;
+  position: relative;
+  bottom: 0;
+}
+
+.message {
+  margin-left: 15px;
+}
+
+.img-text {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.img-text p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.button-1 {
+  border: none;
+  width: 290px;
+  border-radius: 24px;
+  padding: 24px;
+  background: #0a3871;
+  color: #ffffff;
+}
+
+.button-2 {
+  border: 1px solid #0a3871;
+  width: 290px;
+  border-radius: 24px;
+  padding: 24px;
+  background: #d8dfe8;
+  color: #0a3871;
+}
+
+.button-copy {
+  margin-left: 130px;
+  margin-top: 50px;
+  border: 1px solid #0a3871;
+  width: 150px;
+  border-radius: 24px;
+  padding: 20px;
+  background: #d8dfe8;
+  color: #0a3871;
+}
+
+
