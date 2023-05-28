@@ -1,4 +1,9 @@
 @media (max-width: 450px) {
+
+  html {
+    overflow-y: scroll;
+  }
+
   .content-main {
     width: auto;
   }

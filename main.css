@@ -2,6 +2,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 .content-main {
   display: flex;
   flex-direction: column;
